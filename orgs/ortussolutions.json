@@ -1,0 +1,87 @@
+{
+	"name"    : "Ortus Solutions",
+	"patreon"    : true,
+	"description": "We are an innovative software solutions company specializing in web development, cloud services and open source tooling. #ModernizeOrDie",
+	"url" : "https://www.ortussolutions.com",
+    "logo" : "https://www.ortussolutions.com/modules_app/contentbox-custom/_themes/ortus-2019/includes/images/static/ortus-logo-main.png",
+	"sites"      : [
+        {
+            "title" : "ColdBox",
+            "logo" : "https://coldbox.org/includes/img/horizontalLogo.png",
+            "url" : "https://www.coldbox.org",
+            "lucee" : true,
+            "coldbox" : true,
+            "commandbox" : true
+        },
+        {
+            "title" : "CFCasts",
+            "logo" : "https://www.cfcasts.com/includes/img/logo.svg",
+            "url" : "https://www.cfcasts.com",
+            "lucee" : true,
+            "commandbox" : true,
+            "quick" : true,
+            "coldbox" : true
+        },
+        {
+            "title" : "Commandbox",
+            "logo" : "https://www.ortussolutions.com/__media/products/commandbox-white.png",
+            "url" : "https://commandbox.ortusbooks.com",
+            "lucee" : true,
+            "commandbox" : true
+        },
+        {
+            "title" : "ContentBox",
+            "logo" : "https://www.contentboxcms.org/__media/contentbox-logo-white.png",
+            "url" : "https://www.contentboxcms.org",
+            "lucee" : true,
+            "coldbox" : true,
+            "contentbox" : true,
+            "commandbox" : true,
+            "cborm" : true
+        },
+        {
+            "title" : "IntoTheBox",
+            "logo" : "https://www.intothebox.org/includes/images/2021/itb-logo.svg",
+            "url" : "https://www.intothebox.org",
+            "lucee" : true,
+            "coldbox" : true,
+            "contentbox" : true,
+            "commandbox" : true,
+            "cborm" : true
+        },
+        {
+            "title" : "Forgebox",
+            "logo" : "https://forgebox.io/includes/images/ForgeBox150.png",
+            "url" : "https://www.forgebox.io",
+            "lucee" : true,
+            "coldbox" : true,
+            "commandbox" : true,
+            "cborm" : true
+        },
+        {
+            "title" : "Luis F Majano",
+            "url" : "https://www.luismajano.com",
+            "lucee" : true,
+            "coldbox" : true,
+            "contentbox" : true,
+            "commandbox" : true,
+            "cborm" : true
+        },
+        {
+            "title" : "Ortus Books",
+            "url" : "https://www.ortusbooks.com",
+            "lucee" : true,
+            "commandbox" : true
+        },
+        {
+            "title" : "Ortus Solutions",
+            "logo" : "https://www.ortussolutions.com/modules_app/contentbox-custom/_themes/ortus-2019/includes/images/static/ortus-logo-main.png",
+            "url" : "https://www.ortussolutions.com",
+            "lucee" : true,
+            "coldbox" : true,
+            "contentbox" : true,
+            "commandbox" : true,
+            "cborm" : true
+        }
+    ]
+}
