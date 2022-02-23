@@ -50,7 +50,7 @@ Each of the sites can have the following schema
         "cborm",
         "quick",
         "commandbox"
-        // Add any other forgebox slugs you use in your project ( e.g. `quick`, `cbelasticsearch`, `cbsecurity` )
+        // Add any other forgebox slugs you use in your project ( e.g.  `cbelasticsearch`, `cbsecurity`, etc )
     ]
 }
 ```
