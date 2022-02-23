@@ -42,13 +42,16 @@ Each of the sites can have the following schema
     "title" : string, //required
     "url" : URL, // required
     "logo" : URL, // optional
-    "adobe" : boolean // optional (false),
-    "lucee" : boolean // optional (false),
-    "coldbox" : boolean // optional (false),
-    "contentbox" : boolean // optional (false),
-    "quick" : boolean // optional (false),
-    "cborm" : boolean // optional (false),
-    "commandbox" : boolean // optional (false),
+    "engine" : "adobe", //optional - either `adobe` or `lucee
+    // Anything on Forgebox you use
+    "uses" : [
+        "coldbox",
+        "contentbox",
+        "cborm",
+        "quick",
+        "commandbox"
+        // Add any other forgebox slugs you use in your project ( e.g. `quick`, `cbelasticsearch`, `cbsecurity` )
+    ]
 }
 ```
 
