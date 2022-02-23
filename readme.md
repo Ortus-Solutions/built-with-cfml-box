@@ -15,7 +15,7 @@ To contribute, fork and star the project.  Then add your own organization file i
     "version" : "0.0.1",
     "orgs" : [
         "ortussolutions",
-	"myorg"
+    "myorg"
     ]
 }
 ```
@@ -24,12 +24,12 @@ Then your organization can look like this: `orgs/myorg.json`
 
 ```js
 {
-	"name"       : string, // Required
-	"patreon"    : boolean, // Optional (false)
-	"description": string, // Optional
-	"url"        : URL, // Optional
-    	"logo"       : URL, // Optional
-	"sites"      : array of Sites // Optional
+    "name"       : string, // Required
+    "patreon"    : boolean, // Optional (false)
+    "description": string, // Optional
+    "url"        : URL, // Optional
+    "logo"       : URL, // Optional
+    "sites"      : array of Sites // Optional
 }
 ```
 
