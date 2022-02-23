@@ -9,79 +9,98 @@
             "title" : "ColdBox",
             "logo" : "https://coldbox.org/includes/img/horizontalLogo.png",
             "url" : "https://www.coldbox.org",
-            "lucee" : true,
-            "coldbox" : true,
-            "commandbox" : true
+            "engine" : "lucee",
+            "uses" : [
+                "coldbox",
+                "commandbox"
+            ]
         },
         {
             "title" : "CFCasts",
             "logo" : "https://www.cfcasts.com/includes/img/logo.svg",
             "url" : "https://www.cfcasts.com",
-            "lucee" : true,
-            "commandbox" : true,
-            "quick" : true,
-            "coldbox" : true
+            "engine" : "lucee",
+            "uses" : [
+                "commandbox",
+                "quick",
+                "coldbox"
+            ]
         },
         {
             "title" : "Commandbox",
             "logo" : "https://www.ortussolutions.com/__media/products/commandbox-white.png",
             "url" : "https://commandbox.ortusbooks.com",
-            "lucee" : true,
-            "commandbox" : true
+            "engine" : "lucee",
+            "uses" : [
+                "commandbox"
+            ]
         },
         {
             "title" : "ContentBox",
             "logo" : "https://www.contentboxcms.org/__media/contentbox-logo-white.png",
             "url" : "https://www.contentboxcms.org",
-            "lucee" : true,
-            "coldbox" : true,
-            "contentbox" : true,
-            "commandbox" : true,
-            "cborm" : true
+            "engine" : "lucee",
+            "uses" : [
+                "coldbox",
+                "contentbox",
+                "commandbox",
+                "cborm"
+            ]
         },
         {
             "title" : "IntoTheBox",
             "logo" : "https://www.intothebox.org/includes/images/2021/itb-logo.svg",
             "url" : "https://www.intothebox.org",
-            "lucee" : true,
-            "coldbox" : true,
-            "contentbox" : true,
-            "commandbox" : true,
-            "cborm" : true
+            "engine" : "lucee",
+            "uses" : [
+                "coldbox",
+                "contentbox",
+                "commandbox",
+                "cborm"
+            ]
         },
         {
             "title" : "Forgebox",
             "logo" : "https://forgebox.io/includes/images/ForgeBox150.png",
             "url" : "https://www.forgebox.io",
-            "lucee" : true,
-            "coldbox" : true,
-            "commandbox" : true,
-            "cborm" : true
+            "engine" : "lucee",
+            "uses" : [
+                "coldbox",
+                "commandbox",
+                "cborm"
+            ]
         },
         {
             "title" : "Luis F Majano",
             "url" : "https://www.luismajano.com",
-            "lucee" : true,
-            "coldbox" : true,
-            "contentbox" : true,
-            "commandbox" : true,
-            "cborm" : true
+            "engine" : "lucee",
+            "uses" : [
+                "coldbox",
+                "contentbox",
+                "commandbox",
+                "cborm"
+            ]
         },
         {
             "title" : "Ortus Books",
             "url" : "https://www.ortusbooks.com",
-            "lucee" : true,
-            "commandbox" : true
+            "engine" : "lucee",
+            "uses" : [
+                "commandbox"
+            ]
         },
         {
             "title" : "Ortus Solutions",
             "logo" : "https://www.ortussolutions.com/modules_app/contentbox-custom/_themes/ortus-2019/includes/images/static/ortus-logo-main.png",
             "url" : "https://www.ortussolutions.com",
-            "lucee" : true,
-            "coldbox" : true,
-            "contentbox" : true,
-            "commandbox" : true,
-            "cborm" : true
+            "engine" : "lucee",
+            "uses" : [
+                "coldbox",
+                "contentbox",
+                "commandbox",
+                "cborm"
+            ]
+            
         }
     ]
 }
