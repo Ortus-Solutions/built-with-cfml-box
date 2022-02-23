@@ -4,7 +4,7 @@ This repo is a community repo to list and showcase companies, sites and technolo
 
 ## Contributing
 
-To contribute, fork and star the project.  Then add your own organization file in the `companies` directory and then append the name of that file ( excluding the extension ), in to the `cfml-rocks.json` array of orgs. You may use the schema below for reference. Send us your pull request and once validated, we will add it to the repo and site.
+To contribute, fork and star the project.  Then add your own organization file in the `orgs` directory and then append the name of that file ( excluding the extension ), in to the `cfml-rocks.json` array of orgs. You may use the schema below for reference. Send us your pull request and once validated, we will add it to the repo and site.
 
 ### Organization/Company Schema - Add in the `orgs` directory
 
