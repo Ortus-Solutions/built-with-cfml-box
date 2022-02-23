@@ -1,6 +1,6 @@
 # Built with ColdFusion (CFML) & Ortus Products
 
-
+![Built With CFML & Ortus](https://github.com/Ortus-Solutions/built-with-cfml-box/blob/master/images/built-with-cfml-ortus-square-small.png?raw=true)
 
 This repo is a community repo to list and showcase companies, sites and technologies powered by ColdFusion (CFML) and several Ortus Products.
 
