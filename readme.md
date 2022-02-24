@@ -15,7 +15,7 @@ To contribute, fork and star the project.  Then add your own organization file i
     "version" : "0.0.1",
     "orgs" : [
         "ortussolutions",
-	"myorg"
+    "myorg"
     ]
 }
 ```
@@ -24,12 +24,12 @@ Then your organization can look like this: `orgs/myorg.json`
 
 ```js
 {
-	"name"       : string, // Required
-	"patreon"    : boolean, // Optional (false)
-	"description": string, // Optional
-	"url"        : URL, // Optional
-    	"logo"       : URL, // Optional
-	"sites"      : array of Sites // Optional
+    "name"       : string, // Required
+    "patreon"    : boolean, // Optional (false)
+    "description": string, // Optional
+    "url"        : URL, // Optional
+    "logo"       : URL, // Optional
+    "sites"      : array of Sites // Optional
 }
 ```
 
@@ -42,13 +42,16 @@ Each of the sites can have the following schema
     "title" : string, //required
     "url" : URL, // required
     "logo" : URL, // optional
-    "adobe" : boolean // optional (false),
-    "lucee" : boolean // optional (false),
-    "coldbox" : boolean // optional (false),
-    "contentbox" : boolean // optional (false),
-    "quick" : boolean // optional (false),
-    "cborm" : boolean // optional (false),
-    "commandbox" : boolean // optional (false),
+    "engine" : "adobe", //optional - either `adobe` or `lucee
+    // Anything on Forgebox you use
+    "uses" : [
+        "coldbox",
+        "contentbox",
+        "cborm",
+        "quick",
+        "commandbox"
+        // Add any other forgebox slugs you use in your project ( e.g.  `cbelasticsearch`, `cbsecurity`, etc )
+    ]
 }
 ```
 
