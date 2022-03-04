@@ -1,0 +1,29 @@
+{
+	"name"    : "Image Connection",
+	"patreon"    : false,
+	"description": "Embroidered uniforms to enhance your brand. Work apparel for every job. Uniform Program Management to simplify your life.",
+	"url" : "https://www.imageconnection.net",
+    "logo" : "https://imageconnectionassets.nyc3.digitaloceanspaces.com/website-assets/websites/4/logo.png",
+	"sites"      : [
+        {
+            "title" : "Image Connection",
+            "logo" : "https://imageconnectionassets.nyc3.digitaloceanspaces.com/website-assets/websites/4/logo.png",
+            "url" : "https://www.imageconnection.net",
+            "engine" : "lucee",
+            "uses" : [
+                "coldbox",
+                "commandbox"
+            ]
+        },
+        {
+            "title" : "ProGolfShirts.com",
+            "logo" : "https://imageconnectionassets.nyc3.digitaloceanspaces.com/website-assets/websites/33/logo.png",
+            "url" : "https://www.progolfshirts.com",
+            "engine" : "lucee",
+            "uses" : [
+                "coldbox",
+                "commandbox"
+            ]
+        }
+    ]
+}
