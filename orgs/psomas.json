@@ -1,0 +1,51 @@
+{
+	"name"    : "Psomas",
+	"patreon"    : false,
+	"description": "A construction, engineering, environmental, survey, and geospatial 100% employee owned company with offices in many western states.",
+	"url" : "https://www.psomas.com",
+    "logo" : "https://projectweb.psomas.com/src/assets/img/psomas-logo_square_med.gif",
+	"sites"      : [
+        {
+            "title" : "Psomas Project Web",
+            "logo" : "https://projectweb.psomas.com/src/assets/img/PW_Logo_Sized_for_Web_Square.gif",
+            "url" : "https://projectweb.psomas.com",
+            "engine" : "adobe",
+            "uses" : [
+                "commandbox",
+                "coldbox",
+                "cbmailservices",
+                "cors",
+                "angular",
+                "s3sdk",
+                "twilio-sdk",
+                "sendgrid-sdk"
+            ]
+        },
+    {
+            "title" : "Psomas Intranet",
+            "logo" : "https://projectweb.psomas.com/src/assets/img/PW_Logo_Sized_for_Web_Square.gif",
+            "url" : "https://www.psomas.com",
+            "engine" : "adobe",
+            "uses" : [
+                "commandbox",
+                "coldbox",
+                "cbmailservices",
+                "cors",
+                "angular",
+                "s3sdk",
+                "twilio-sdk",
+                "sendgrid-sdk"
+            ]
+        },
+    {
+            "title" : "CMDTS",
+            "url" : "https://www2.cmdts.com",
+            "engine" : "adobe",
+            "uses" : [
+                "coldbox",
+                "commandbox"
+            ]
+        }
+    
+    ]
+}
